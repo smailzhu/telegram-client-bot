@@ -1,11 +1,10 @@
 from telethon import TelegramClient, sync, events
-from telethon.errors import MultiError
 from telethon import functions, types
 import asyncio
 import logging
 import requests
 api_id = api_id
-api_hash = api_id
+api_hash = api_hash
 
 logging.basicConfig(level=logging.WARNING)
 
